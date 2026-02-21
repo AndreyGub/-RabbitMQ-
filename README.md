@@ -26,6 +26,13 @@
 
 ---
 Ответ: 
+1. Устанвливаем и проверяем статус RAbbitMQ
+   <img width="879" height="315" alt="image" src="https://github.com/user-attachments/assets/541f956e-e6f1-4311-82c7-b50194b7adee" />
+
+2. <img width="1529" height="418" alt="image" src="https://github.com/user-attachments/assets/75fd7dc7-ba43-4a16-97bf-031005dab13d" />
+<img width="1834" height="896" alt="image" src="https://github.com/user-attachments/assets/d360320b-4a15-4ad3-a938-5c71871b0afc" />
+
+
 
 ### Задание 2. Отправка и получение сообщений
 
