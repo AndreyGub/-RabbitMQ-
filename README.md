@@ -32,6 +32,7 @@
 2. <img width="1529" height="418" alt="image" src="https://github.com/user-attachments/assets/75fd7dc7-ba43-4a16-97bf-031005dab13d" />
 <img width="1834" height="896" alt="image" src="https://github.com/user-attachments/assets/d360320b-4a15-4ad3-a938-5c71871b0afc" />
 
+3. Вернувшись в первый терминал видим - <img width="557" height="128" alt="image" src="https://github.com/user-attachments/assets/039eef17-bbb2-4084-b4a6-c3e169c56914" />
 
 
 ### Задание 2. Отправка и получение сообщений
