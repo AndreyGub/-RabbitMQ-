@@ -54,6 +54,13 @@ $ pip install pika
 Для закрепления материала можете попробовать модифицировать скрипты, чтобы поменять название очереди и отправляемое сообщение.
 
 ---
+Ответ: 
+1. Запустите consumer.py в терминале-1 <img width="542" height="57" alt="image" src="https://github.com/user-attachments/assets/a9f002b3-5cd6-45b5-a690-c8c3500a0f39" />
+
+
+
+2. Запустите producer.py в терминале-2 <img width="537" height="80" alt="image" src="https://github.com/user-attachments/assets/6a6e6b4e-9c4b-4314-81bc-3b99397a63bd" />
+
 
 ### Задание 3. Подготовка HA кластера
 
