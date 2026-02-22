@@ -96,6 +96,39 @@ $ rabbitmqadmin get queue='hello'
 
 *Приложите скриншот результата работы второго скрипта.*
 
+Ответ: 
+1. Устанавливаем вторую VM <img width="1272" height="194" alt="image" src="https://github.com/user-attachments/assets/321e191b-2b45-44bd-9812-4685756fb6bb" />
+
+2. Устанавливаем RabbitMQ на вторую VM и проверяем статус <img width="872" height="319" alt="image" src="https://github.com/user-attachments/assets/ec2ec198-659f-46a8-a216-4f132975f391" />
+3. Настриваем hosts файлво на vm1 и vm2 sudo nano /etc/hosts <img width="845" height="394" alt="image" src="https://github.com/user-attachments/assets/4965c2c6-085b-471c-9e11-3b6dae3b7929" />
+
+<img width="849" height="399" alt="image" src="https://github.com/user-attachments/assets/2ba48ebe-2adf-4ca5-a9ce-b2f2f663e091" />
+
+
+4. Далее объединяем в кластер одну vm2 в vm1
+   Выполняем на vm2:
+  1. Останавливаем приложение
+sudo rabbitmqctl stop_app
+
+ 2. Сбросываем состояние
+sudo rabbitmqctl reset
+
+3. Присоединяем к кластеру, используя полное имя с первой ВМ
+sudo rabbitmqctl join_cluster rabbit@compute-vm-2-1-12-hdd-1766699828403
+
+4.  Запускаемс приложение
+sudo rabbitmqctl start_app
+
+5. Далее проверяем статус кластера
+sudo rabbitmqctl cluster_status
+
+ <img width="880" height="506" alt="image" src="https://github.com/user-attachments/assets/edef1ae7-8339-4125-968f-58f0ba6e706a" />
+
+<img width="702" height="539" alt="image" src="https://github.com/user-attachments/assets/51d0f66e-268b-4ee4-b3b5-b4a0ad691c90" />
+
+
+
+ 
 
 ## Дополнительные задания (со звёздочкой*)
 Эти задания дополнительные, то есть не обязательные к выполнению, и никак не повлияют на получение вами зачёта по этому домашнему заданию. Вы можете их выполнить, если хотите глубже шире разобраться в материале.
