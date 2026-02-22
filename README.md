@@ -127,6 +127,7 @@ sudo rabbitmqctl cluster_status
 <img width="702" height="539" alt="image" src="https://github.com/user-attachments/assets/51d0f66e-268b-4ee4-b3b5-b4a0ad691c90" />
 
 
+VM1 - <img width="694" height="535" alt="image" src="https://github.com/user-attachments/assets/c681aa51-2318-4daf-8f07-ab30a6f44f9d" />
 
  
 
