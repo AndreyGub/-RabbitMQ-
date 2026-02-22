@@ -140,8 +140,14 @@ sudo rabbitmqctl set_policy ha-all "^" '{"ha-mode":"all"}'
 <img width="577" height="49" alt="image" src="https://github.com/user-attachments/assets/13df3382-f2f5-459a-9c09-72ab98331ee9" />
 
 8. Проверяем сообщения на обеих нодах
-На 1 <img width="910" height="204" alt="image" src="https://github.com/user-attachments/assets/3442d699-a342-45bb-abb0-950b420e9ad4" />
-На 2-ой <img width="890" height="197" alt="image" src="https://github.com/user-attachments/assets/020f0c85-dd34-4b0c-a27b-9e9d186fb9d0" />
+# На 1 <img width="910" height="204" alt="image" src="https://github.com/user-attachments/assets/3442d699-a342-45bb-abb0-950b420e9ad4" />
+# На 2-ой <img width="890" height="197" alt="image" src="https://github.com/user-attachments/assets/020f0c85-dd34-4b0c-a27b-9e9d186fb9d0" />
+
+9. Проверка отказоустойчивости
+   Остановили <img width="776" height="35" alt="image" src="https://github.com/user-attachments/assets/ae3ad2a4-6152-4990-ac7f-a656a1d65ce1" />
+
+  Результат работы consumer.py после отключения первой ноды  <img width="578" height="75" alt="image" src="https://github.com/user-attachments/assets/5bde9d69-6052-43af-99e0-131bce617346" />
+
 
  ## Дополнительные задания (со звёздочкой*)
 Эти задания дополнительные, то есть не обязательные к выполнению, и никак не повлияют на получение вами зачёта по этому домашнему заданию. Вы можете их выполнить, если хотите глубже шире разобраться в материале.
